@@ -1,0 +1,96 @@
+
+a{
+    vertical-align: none;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+.over{
+    overflow: hidden;
+}
+
+body {
+    background-image: url(bingo.jpg);
+}
+
+#contenedorBlanco{
+    background-color: azure;
+    border:15px dashed lightsalmon;
+    width:35%;
+    height:600px;
+    margin-left:30%;
+    margin-top:10%;
+}
+
+#carton{
+    background-color:lightsalmon;
+    border:2px dotted  black;
+    width:80%;
+    margin-left:10%;
+    margin-top:5%;
+    height:50%;
+}
+
+#titulo{
+    color:lightsalmon;
+    text-align: center;
+    font-size:30px;
+}
+
+.input{
+    border:1px solid black;
+    margin-left:10%;
+}
+#saidNumbers{
+    background-color:lightblue;
+    border:2px dotted  black;
+    width:80%;
+    margin-left:10%;
+    height:20%;
+}
+
+#entrada1, #entrada2, #entrada3, #entrada4, #entrada5{
+    margin-left:20%;
+    border:3px solid black;
+    margin-top:3%;
+}
+
+
+#submit{
+    margin-left:20%;
+    margin-top:3%;
+    font-size:25px;
+    border:3px solid black;
+}
+
+#saidNumber{
+    font-size:30px;
+    text-align: center;
+}
+
+#saidNumberMessage{
+    font-size:15px;
+    text-align: center;
+}
+
+#gotIt{
+    background-color: greenyellow;
+    font-size:50px;
+}
